@@ -1,5 +1,12 @@
 ' ********** Copyright 2020 Roku Corp.  All Rights Reserved. **********
 
-function Main()
+' Channel entry point
+sub Main()
+  showChannelSGScreen()
+end sub
 
-end function
+sub showChannelSGScreen()
+screen = CreateObject("roSGScreen")
+scene  = screen.CreateScene("LoadingScreen")
+screen.show()
+end sub
