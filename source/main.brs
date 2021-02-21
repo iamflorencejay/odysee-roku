@@ -2,6 +2,7 @@
 
 ' Channel entry point
 sub Main()
+<<<<<<< HEAD
     ShowChannelRSGScreen()
 end sub
 
@@ -25,4 +26,13 @@ sub ShowChannelRSGScreen()
             if msg.IsScreenClosed() then return
         end if
     end while
+=======
+  showChannelSGScreen()
+end sub
+
+sub showChannelSGScreen()
+screen = CreateObject("roSGScreen")
+scene  = screen.CreateScene("LoadingScreen")
+screen.show()
+>>>>>>> bb2da5466b329f21e3d5353f21de7628f997031a
 end sub

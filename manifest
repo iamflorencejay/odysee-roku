@@ -8,5 +8,12 @@ bs_libs_required=roku_ads_lib
 splash_screen_fhd=pkg:/images/splash_fhd.jpg
 splash_screen_hd=pkg:/images/splash_hd.jpg
 splash_screen_sd=pkg:/images/splash_sd.jpg
+<<<<<<< HEAD
 splash_min_time=2000
 ui_resolutions=hd
+=======
+splash_color=#1c1f22
+splash_min_time=0
+ui_resolutions=FHD,HD
+splash_rsg_optimization=1
+>>>>>>> bb2da5466b329f21e3d5353f21de7628f997031a
