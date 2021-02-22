@@ -11,6 +11,7 @@
         <!-- index of last played item. It will be used to show appropriate detailsScreen once videoScreen will be closed -->
         <field id="lastIndex" type="integer" alias="PlayerTask.lastIndex" />
         <field id="isSeries" type="bool" />
+        <!-- color testing-->
         <!-- VideoScreen will be closed once close set to "true" -->
         <field id="close" type="bool" />
     </interface>

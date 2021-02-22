@@ -29,7 +29,7 @@
             itemComponentName="RowListItemComponent"
             id="rowList"
             translation="[80,350]"
-            numRows="2"
+            numRows="10"
             rowitemSize="[[320,180]]"
             rowItemSpacing="[[20,0]]"
             itemSize="[1100,270]"

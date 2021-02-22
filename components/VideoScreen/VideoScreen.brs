@@ -3,9 +3,9 @@
 ' entry point of videoScreen
 function Init()
     ' set rectangle fields
-    m.top.width = 1280
-    m.top.height = 720
-    m.top.color="0x000000"
+    m.top.width = 1920
+    m.top.height = 1080
+    m.top.color="0x212529"
     ' store reference for playerTask so we can use it in other functions
     m.playerTask = m.top.FindNode("PlayerTask")
     m.playerTask.ObserveField("state", "OnPlayerTaskStateChange")   ' close screen once exited
